@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/05/60/26/26/360_F_560262652_SMg7tie3Zii0zFT9LYkKMqrNrPcU5owB.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    margin: 100px auto;
+    background-color: rgb(11, 59, 181);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.option{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
